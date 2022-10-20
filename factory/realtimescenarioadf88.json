@@ -1,0 +1,9 @@
+{
+	"name": "realtimescenarioadf88",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cf1c767f-8e85-4401-830f-0163e9f06b01",
+		"tenantId": "6542e5d4-1bdc-4dda-83bd-7c42549ee3b7"
+	}
+}
