@@ -75,6 +75,22 @@
 				"typeProperties": {
 					"waitTimeInSeconds": 10
 				}
+			},
+			{
+				"name": "wait 10 s_copy1",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Copy data1",
+						"dependencyConditions": [
+							"Failed"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
 			}
 		],
 		"annotations": []
