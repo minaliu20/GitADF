@@ -59,6 +59,22 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "wait 10 s",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Copy data1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
 			}
 		],
 		"annotations": []
